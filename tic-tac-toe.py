@@ -4,14 +4,14 @@ import random as rd
 def print_mat(p1, p2, v=" "):
     if p1 != -1:
         a[p1][p2] = v
-    print("**********")
+    print("************")
     print(f" {a[0][0]} | {a[0][1]} | {a[0][2]}")
     print(f"_ _|_ _|_ _")
     print(f" {a[1][0]} | {a[1][1]} | {a[1][2]}")
     print(f"_ _|_ _|_ _")
     print(f" {a[2][0]} | {a[2][1]} | {a[2][2]}")
     print(f"   |   |  ")
-    print("**********")
+    print("************")
 
 
 # Checking all possible wining rows
